@@ -4,4 +4,10 @@ component extends="framework.one"  {
     this.sessionManagement = true;
     this.sessionTimeout = createTimeSpan(0,1,0,0);
     
+    variables.framework = {
+        home = "contact.default",
+        // error = "contact.error",
+        generateSES = true,
+        trace = true
+    };
 }
