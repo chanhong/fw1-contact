@@ -6,7 +6,7 @@ component extends="framework.one"  {
     
     variables.framework = {
         home = "contact.default",
-        // error = "contact.error",
+        error = "contact.error",
         generateSES = true,
         trace = true
     };

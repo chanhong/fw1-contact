@@ -1,8 +1,4 @@
-/**
-* @accessors  true
-* @output     false
-*/
-component {
+component accessors="true" {
 
     property name;
     property email;

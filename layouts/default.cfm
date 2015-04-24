@@ -9,8 +9,9 @@
 <nav class="navbar navbar-inverse">
     <div class="container">
         <div class="navbar-header">
-            <a href="/" class="navbar-brand">Contact Form</a>
+            <a href="/" class="navbar-brand">Contact Form Demo</a>
         </div>
+        <a href="/?reload=true" class="btn btn-default btn-sm navbar-btn pull-right">Reload</a>
     </div>
 </nav>
 <div class="container">

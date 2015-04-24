@@ -10,7 +10,15 @@ component {
     }
 
     public any function get(required string key) {
-        return session[key];
+        var result = "";
+        if (findKey(key)) {
+            result = session[key];
+        }
+        return result;
+    }
+
+    public boolean function findKey(required string key) {
+        return structKeyExists(session, key);
     }
 
 }

@@ -1,2 +1,5 @@
-<h1>Error Occurred</h1>
-<cfdump var="#request#" expand="false" />
+<cfoutput>
+<h1>Exception Occurred</h1>
+<p>This action in <strong>#request.failedaction#</strong> falied.</p>
+<cfdump var="#request.exception.cause#" label="Exception" expand="true" />
+</cfoutput>

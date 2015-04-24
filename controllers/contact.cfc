@@ -6,12 +6,19 @@ component accessors="true" {
         variables.fw = fw;
     }
 
-    function default( rc ) {        
+    function default( rc ) {
+        rc.contact = getContactService().get( argumentcollection = rc );
     }
 
     function save( rc ) {
-        writeDump(rc);
-        abort;
+        var contact = getContactService().get( argumentcollection = rc );
+        variables.fw.populate( cfc = contact, trim = true );
+        getContactService().save(contact, "contactsubmission");
+        variables.fw.redirect("contact.thankyou");
+    }
+
+    function thankyou( rc ) {
+        rc.contact = getContactService().get(key: "contactsubmission");
     }
 
 }
