@@ -11,7 +11,7 @@
         <div class="navbar-header">
             <a href="/" class="navbar-brand">Contact Form Demo</a>
         </div>
-        <a href="/?reload=true" class="btn btn-default btn-sm navbar-btn pull-right">Reload</a>
+        <a href="/?reload=true" class="btn btn-default btn-xs navbar-btn pull-right">Reload</a>
     </div>
 </nav>
 <div class="container">
@@ -19,5 +19,6 @@
 </div>
 <script src="/includes/js/jquery-1.11.2.min.js"></script>
 <script src="/includes/js/parsley.min.js"></script>
+<script src="/includes/js/main.js"></script>
 </body>
 </html>

@@ -11,8 +11,8 @@ component accessors="true" {
 
     function get(string key = "") {
         var result = "";
-        if (len(key) AND variables.sessionFacade.findKey(key)) {
-            result = variables.sessionFacade.get(key);
+        if (len(key) AND getSessionFacade().findKey(key)) {
+            result = getSessionFacade().get(key);
         } else {
             result = variables.beanFactory.getBean('ContactBean');
         }

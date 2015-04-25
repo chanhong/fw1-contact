@@ -1,6 +1,6 @@
 /**
 * @output false
-**/
+*/
 component {
 
     public void function init() {}
