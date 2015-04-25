@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
     <title>Simple Contact Form</title>
     <link rel="stylesheet" href="/includes/css/bootstrap.min.css">
     <link rel="stylesheet" href="/includes/css/main.css">
